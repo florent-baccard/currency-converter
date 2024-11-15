@@ -107,3 +107,5 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
+
+module.exports = { convertCurrency };
