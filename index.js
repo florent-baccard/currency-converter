@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 async function convertCurrency(amount, fromCurrency, toCurrency) {
-  const API_KEY = '38df67baaaaebb696644f0c8'; // Remplace par ta clé API
+  const API_KEY = '38df67baaaaebb696644f0c8';
   const url = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${fromCurrency}/${toCurrency}`;
 
   try {
